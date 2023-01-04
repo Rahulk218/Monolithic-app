@@ -1,0 +1,4 @@
+FROM httpd
+COPY hospital-website-template /usr/local/apache2/htdocs/
+#ADD medinova.zip /usr/local/apache2/htdocs/
+#ADD https://www.free-css.com/assets/files/free-css-templates/download/page283/medinova.zip
